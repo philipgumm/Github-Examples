@@ -1,4 +1,8 @@
-on: [push]
+name: Schedule for Uptime
+
+on: 
+  schedule:
+    - cron: */2 * * * 1,3
 
 jobs:
   my-job:
